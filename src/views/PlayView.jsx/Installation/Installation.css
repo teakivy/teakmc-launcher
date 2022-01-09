@@ -1,0 +1,42 @@
+.installation {
+	width: 250px;
+	height: 55px;
+	top: 8px;
+	left: 20px;
+	position: absolute;
+	cursor: pointer;
+	border-radius: 10px;
+	transition-duration: 0.1s;
+}
+
+.installation:hover {
+	background-color: #3c3c4060;
+}
+
+.installationImg {
+	width: 45px;
+	-webkit-box-shadow: 1px 1px 9px 3px rgba(0, 0, 0, 0.51);
+	box-shadow: 1px 1px 9px 3px rgba(0, 0, 0, 0.51);
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-left: 5px;
+	transition-duration: 0.2s;
+}
+
+.installationImg:hover {
+	transform: translateY(-2px);
+}
+
+.installationTitle {
+	display: inline;
+	position: fixed;
+	margin-left: 15px;
+	margin-top: 16px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffffff;
+	transition-duration: 0.2s;
+}
+.installationTitle:hover {
+	transform: translateY(-1px);
+}

@@ -1,0 +1,36 @@
+@import url('http://fonts.cdnfonts.com/css/minecraft-4');
+
+.installationArea {
+	position: relative;
+	width: 700px;
+	height: 100px;
+	top: 150px;
+	left: 400px;
+	/* background-color: red; */
+}
+
+.newInstallationButton {
+	border: 2px solid #707070;
+	position: absolute;
+	top: 100px;
+	left: 410px;
+	padding: 7px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: transparent;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 10px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	-webkit-box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.26);
+	box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.26);
+}
+
+.newInstallationButton:hover {
+	background-color: #494949;
+	transform: translateY(-3px);
+	-webkit-box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.43);
+	box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.43);
+}

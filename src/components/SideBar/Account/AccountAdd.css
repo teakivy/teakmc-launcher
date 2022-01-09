@@ -1,0 +1,29 @@
+.accountAdd {
+	border-radius: 5px;
+	margin-bottom: 12.5px;
+	margin-top: 12.5px;
+	box-shadow: var(--dark-box-shadow);
+	-webkit-box-shadow: var(--dark-box-shadow);
+	transition-duration: 0.1s;
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.651);
+	background-color: rgba(255, 255, 255, 0.06);
+	text-align: center;
+	width: 100%;
+	height: 37.5px;
+	display: block;
+}
+
+.accountAdd:hover {
+	background-color: rgba(255, 255, 255, 0.123);
+	color: white;
+	outline: 1px solid #999999;
+	outline-offset: 2px;
+	cursor: pointer;
+	transform: translateY(-2px);
+}
+
+.plusAccount {
+	top: 7px;
+	position: relative;
+}

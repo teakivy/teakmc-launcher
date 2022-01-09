@@ -1,0 +1,40 @@
+.SideBar {
+	background-color: var(--color-dark-gray);
+	position: fixed;
+	color: white;
+	min-width: 75px;
+	max-width: 75px;
+	height: 100vh;
+	z-index: 100;
+	-webkit-box-shadow: 5px 0px 15px -2px rgba(0, 0, 0, 0.5);
+	box-shadow: 5px 0px 15px -2px rgba(0, 0, 0, 0.5);
+}
+
+.accountsBar {
+	display: flexbox;
+	width: 37.5px;
+	margin-left: 18.75px;
+	padding-top: 15px;
+}
+
+.settingsCog {
+	color: #ffffff45;
+	font-size: 30px;
+	width: 30px;
+	/* background-color: red; */
+	text-align: center;
+	margin-left: 21px;
+	position: absolute;
+	/* background-color: red; */
+	height: 30px;
+	bottom: 25px;
+	transition-duration: 0.5s;
+
+	text-shadow: 2px 2px 8px rgb(124, 1, 1);
+}
+
+.settingsCog:hover {
+	transform: rotate(30deg);
+	color: #ffffff70;
+	cursor: pointer;
+}

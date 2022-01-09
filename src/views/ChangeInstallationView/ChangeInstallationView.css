@@ -1,0 +1,222 @@
+.inOptView {
+	position: absolute;
+	top: 100px;
+	left: 350px;
+	width: 800px;
+	height: 200px;
+	/* background-color: rgb(68, 68, 68); */
+}
+
+.imgOptImg {
+	border-radius: 7px;
+	width: 26px;
+	position: relative;
+	top: 2px;
+	-webkit-box-shadow: 3px 3px 16px 0px rgba(0, 0, 0, 0.47);
+	box-shadow: 3px 3px 16px 0px rgba(0, 0, 0, 0.47);
+}
+.imgOptTitle {
+	color: white;
+	position: relative;
+	top: -6px;
+	left: 5px;
+	font-weight: 490;
+	/* transform: rotate(180deg); */
+}
+
+.inOptText {
+	color: white;
+	font-weight: 500;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.inOptName {
+	display: inline-block;
+	/* top: -6px;
+	position: relative; */
+	transition-duration: 0.2s;
+}
+
+.inOptName:hover {
+	transform: translateY(-3px);
+}
+
+.inOptImage {
+	position: absolute;
+	right: 0px;
+	top: -0px;
+	z-index: 100;
+	transition-duration: 0.2s;
+}
+
+.inOptImage:hover {
+	transform: translateY(-3px);
+}
+
+.installationNameIn {
+	height: 35px;
+	width: 510px;
+	background-color: #25252a;
+	border: none;
+	border-radius: 5px;
+	padding-left: 10px;
+	font-size: 17px;
+	-webkit-box-shadow: 3px 3px 8px -1px rgba(0, 0, 0, 0.4);
+	box-shadow: 3px 3px 8px -1px rgba(0, 0, 0, 0.4);
+	color: white;
+}
+
+.installationDirIn {
+	height: 35px;
+	width: 510px;
+	background-color: #25252a;
+	border: none;
+	border-radius: 5px;
+	padding-left: 10px;
+	font-size: 17px;
+	-webkit-box-shadow: 3px 3px 8px -1px rgba(0, 0, 0, 0.4);
+	box-shadow: 3px 3px 8px -1px rgba(0, 0, 0, 0.4);
+	color: white;
+}
+
+.installationJavaIn {
+	height: 35px;
+	width: 510px;
+	background-color: #25252a;
+	border: none;
+	border-radius: 5px;
+	padding-left: 10px;
+	font-size: 17px;
+	-webkit-box-shadow: 3px 3px 8px -1px rgba(0, 0, 0, 0.4);
+	box-shadow: 3px 3px 8px -1px rgba(0, 0, 0, 0.4);
+	color: white;
+}
+
+.installationArgsIn {
+	height: 35px;
+	width: 240px;
+	background-color: #25252a;
+	border: none;
+	border-radius: 5px;
+	padding-left: 10px;
+	font-size: 17px;
+	/* -webkit-box-shadow: 3px 3px 8px -1px rgba(0, 0, 0, 0.4); */
+	box-shadow: 3px 3px 8px -1px rgba(0, 0, 0, 0.4);
+	color: white;
+}
+
+.inOptJava {
+	position: absolute;
+	top: 160px;
+	transition-duration: 0.2s;
+}
+
+.inOptJava:hover {
+	transform: translateY(-3px);
+}
+
+.inOptArgs {
+	position: absolute;
+	top: 160px;
+	right: 0px;
+	transition-duration: 0.2s;
+}
+
+.inOptArgs:hover {
+	transform: translateY(-3px);
+}
+
+.inOptDir {
+	position: absolute;
+	top: 80px;
+	transition-duration: 0.2s;
+}
+
+.inOptDir:hover {
+	transform: translateY(-3px);
+}
+
+.inOptRam {
+	top: 190px;
+	position: relative;
+	transition-duration: 0.2s;
+	/* background-color: red; */
+	height: 80px;
+}
+
+.inOptRam:hover {
+	transform: translateY(-2px);
+}
+
+.verOptTitle {
+	color: white;
+}
+
+.inOptVersion {
+	position: absolute;
+	right: 0px;
+	top: 80px;
+	z-index: 99;
+	transition-duration: 0.2s;
+}
+
+.inOptVersion:hover {
+	transform: translateY(-3px);
+}
+
+.installationMemText {
+	top: -5px;
+	position: relative;
+}
+
+.inOptButtons {
+	position: absolute;
+	top: 360px;
+	right: 0px;
+	transition-duration: 0.2s;
+}
+
+.inOptButton {
+	border: 2px solid #707070;
+	margin-left: 20px;
+	padding: 7px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: transparent;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 10px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	-webkit-box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.26);
+	box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.26);
+}
+
+.inOptButton:hover {
+	background-color: #494949;
+	transform: translateY(-3px);
+	-webkit-box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.43);
+	box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.43);
+}
+
+.inOptSave {
+	background-color: #38a544;
+	border-color: #38a544;
+}
+.inOptSave:hover {
+	background-color: #2b9137;
+	border-color: #2b9137;
+}
+
+.installationArgsText {
+	color: rgba(255, 255, 255, 0.178);
+}
+
+.installationArgsIn {
+	opacity: 40%;
+}
+
+.inOptArgs:hover {
+	transform: translateY(-1px);
+}

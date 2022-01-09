@@ -1,0 +1,59 @@
+{
+  "name": "msmc",
+  "version": "3.0.3",
+  "description": "A bare bones login library for Minecraft based projects to authenticate individuals with a Microsoft account.",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Hanro50/MSMC.git"
+  },
+  "types": "index.d.ts",
+  "author": "Hanro50 (https://github.com/Hanro50)",
+  "bugs": {
+    "url": "https://github.com/Hanro50/MSMC/issues"
+  },
+  "files": [
+    "index.d.ts",
+    "index.js",
+    "tests.mjs",
+    "index.mjs",
+    "modules/backEnd.js",
+    "modules/mclc.js",
+    "modules/wrapper.js",
+    "modules/gui/electron.js",
+    "modules/gui/nwjs.js",
+    "modules/gui/raw.js"
+  ],
+  "homepage": "https://github.com/Hanro50/MSMC/",
+  "scripts": {
+    "test": "node tests.mjs"
+  },
+  "keywords": [
+    "msmc",
+    "microsoft",
+    "oauth2",
+    "minecraft",
+    "login",
+    "mc",
+    "es6",
+    "commonjs"
+  ],
+  "engines": {
+    "node": ">=10.19.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "funding": [
+    {
+      "type": "paypal",
+      "url": "https://paypal.me/hanro50"
+    }
+  ]
+}

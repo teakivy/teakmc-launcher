@@ -1,0 +1,246 @@
+@import url('http://fonts.cdnfonts.com/css/minecraft-4');
+
+.launcherBgImg {
+	width: 1365px;
+	object-fit: cover;
+	height: 781px;
+	display: inline;
+	position: absolute;
+	top: 0px;
+	margin-left: 75px;
+	z-index: -10;
+	overflow: hidden;
+}
+
+.launcherMCLogo {
+	width: 512.5px;
+	position: absolute;
+	top: -100px;
+	left: 510.75px;
+	transform: translateY(170px);
+}
+
+.launcherMCLogo:hover {
+	transform: translateY(165px);
+	cursor: pointer;
+	-webkit-filter: drop-shadow(1px 1px 0 rgb(90, 55, 119)) drop-shadow(-1px -1px 0 rgb(129, 85, 165));
+	filter: drop-shadow(1px 1px 0 rgb(90, 55, 119)) drop-shadow(-1px -1px 0 rgb(129, 85, 165));
+}
+.launcherMCLogo:active {
+	width: 492.5px;
+	left: 520.75px;
+}
+
+.frame-bar {
+	background-color: var(--color-dark-gray);
+	width: 100%;
+	z-index: -1;
+	height: 7%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	-webkit-box-shadow: 0px 5px 15px -2px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 5px 15px -2px rgba(0, 0, 0, 0.5);
+}
+.draggable-bar {
+	/* background-color: var(--color-light-gray); */
+	width: 67.2%;
+	z-index: -1;
+	height: 7%;
+	position: absolute;
+	top: 0px;
+	right: 6%;
+	-webkit-user-select: none;
+	user-select: none;
+	-webkit-app-region: drag;
+}
+
+.draggable-bar:focus {
+	cursor: pointer;
+}
+
+.windowControls {
+	position: absolute;
+	color: white;
+	top: 0px;
+	right: 0px;
+	height: 7%;
+	display: inline-block;
+}
+
+.closeWindow {
+	font-size: 50px;
+	position: absolute;
+	height: 100%;
+	top: 0px;
+	right: 0px;
+	width: 50px;
+	transition-duration: 0.2s;
+}
+
+.closeWindow:hover {
+	color: rgb(224, 91, 91);
+	cursor: pointer;
+	transform: translateY(-1px);
+}
+
+.minimizeWindow {
+	font-size: 50px;
+	position: absolute;
+	height: 72%;
+	padding-top: 40px;
+	padding-bottom: 4px;
+	top: -28px;
+	right: 50px;
+	width: 30px;
+	font-size: 20px;
+	padding-left: 10px;
+	transition-duration: 0.2s;
+}
+
+.minimizeWindow:hover {
+	color: rgb(133, 133, 133);
+	cursor: pointer;
+	transform: translateY(-2px);
+}
+
+.selectButtons {
+	font-family: 'Segoe UI', Arial, sans-serif;
+	font-size: 22px;
+	display: flex;
+	font-weight: 500;
+	position: absolute;
+	top: 15px;
+	left: 90px;
+	z-index: 2;
+	color: #ffffff70;
+	/* background-color: var(--color-light-gray); */
+}
+.selectButton {
+	padding-left: 7px;
+	padding-bottom: 3px;
+	padding-right: 7px;
+	margin-right: 20px;
+	transition-duration: 0.2s;
+}
+.selectButtonActive {
+	color: white;
+	border-bottom: #38ab44 solid 3px;
+	border-radius: 3px;
+}
+
+.selectButton:hover {
+	transform: translateY(-4px);
+	padding-bottom: 6px;
+	color: #ffffff92;
+	cursor: pointer;
+	/* border-bottom: #38ab44 solid 2px; */
+}
+.selectButtonActive:hover {
+	color: white;
+	border-bottom: #38ab44 solid 3px;
+}
+.selectDisabled {
+	color: #ffffff30;
+}
+.selectDisabled:hover {
+	color: #ffffff40;
+	transform: translateY(-1.5px);
+	cursor: default;
+}
+
+.playBar {
+	background-color: var(--color-dark-gray);
+	z-index: 2;
+	width: 1365px;
+	position: absolute;
+	display: inline;
+	bottom: 0px;
+	left: 75px;
+	height: 73px;
+
+	-webkit-box-shadow: 0px -5px 15px -2px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px -5px 15px -2px rgba(0, 0, 0, 0.5);
+	transition-duration: 10s;
+}
+
+.playButton {
+	background-color: rgb(68, 177, 79);
+	/* background: linear-gradient(174deg, rgba(87, 194, 98, 1) 8%, rgba(48, 116, 54, 1) 84%); */
+	border-radius: 20px;
+	width: 300px;
+	height: 72px;
+	left: 540px;
+	bottom: 35px;
+	position: absolute;
+	cursor: pointer;
+	transition-duration: 1s;
+	-webkit-box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.21);
+	box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.21);
+	outline: 2px solid rgb(48, 158, 59);
+	outline-offset: 2px;
+	z-index: 3;
+}
+
+.playButton:hover {
+	background-color: rgb(48, 158, 59);
+	transition-duration: 0.3s;
+	-webkit-box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.41);
+	box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.41);
+	transform: translateY(-7px);
+	outline: 2.7px solid rgb(48, 158, 59);
+	width: 320px;
+	left: 530px;
+}
+
+.playButtonRed {
+	background-color: rgb(211, 77, 77);
+	outline-color: rgb(211, 77, 77);
+}
+
+.playButtonRed:hover {
+	background-color: rgb(190, 60, 60);
+	outline-color: rgb(190, 60, 60);
+}
+
+.playText {
+	font-family: 'Minecraft', sans-serif;
+	color: white;
+	font-size: 50px;
+	margin-top: 3px;
+	text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.295);
+	transition-duration: 0.5s;
+	text-align: center;
+	/* background-color: red; */
+}
+
+.playTabUsername {
+	color: #ffffff80;
+	font-weight: 500;
+	font-size: 20px;
+	margin-top: 19px;
+	/* background-color: red; */
+	margin-left: 1020px;
+	width: 320px;
+	text-align: right;
+}
+
+.launchProgressBar {
+	position: absolute;
+	width: 1365px;
+	left: 75px;
+	top: 725px;
+	height: 12px;
+	border-radius: 0px;
+	z-index: 2;
+	background-color: #eee;
+}
+
+.launchProgressBar::-webkit-progress-bar {
+	background-color: var(--color-dark-gray);
+	transition-duration: 1s;
+}
+.launchProgressBar::-webkit-progress-value {
+	background-color: rgb(48, 158, 59);
+	transition-duration: 0.4s;
+}

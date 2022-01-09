@@ -1,0 +1,74 @@
+.installationLine {
+	cursor: pointer;
+	transition-duration: 0.2s;
+	padding: 10px;
+	border-radius: 20px;
+	height: 56px;
+}
+
+.installationLine:hover {
+	transform: translateY(-3px);
+	background-color: rgba(255, 255, 255, 0.034);
+}
+
+.installationImage {
+	width: 55px;
+	height: 55px;
+	border-radius: 15px;
+	transition-duration: 0.2s;
+	-webkit-box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.27);
+	box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.27);
+}
+
+.installationText {
+	color: white;
+	position: relative;
+	font-weight: 500;
+	font-size: 20px;
+	top: -20px;
+	left: 15px;
+	transition-duration: 0.2s;
+}
+.installationImage:hover {
+	transform: translateY(-2px);
+}
+
+.installationLine:hover .installationOptions {
+	color: #707070;
+}
+
+.installationOptions {
+	float: right;
+	color: transparent;
+	font-size: 26px;
+	top: 14px;
+	right: 4px;
+	position: relative;
+	transition-duration: 0.2s;
+}
+
+.installationOption {
+	margin-right: 10px;
+	position: relative;
+	transition-duration: 0.2s;
+}
+.installationOption:hover {
+	top: -2px;
+}
+
+.playInstallation:hover {
+	color: rgb(82, 182, 82);
+}
+
+.editInstallation:hover {
+	color: rgb(238, 185, 70);
+}
+
+.deleteInstallation:hover {
+	color: rgb(233, 95, 95);
+}
+
+.activeInstallationLine {
+	background-color: rgba(255, 255, 255, 0.025);
+	/* border: rgb(128, 128, 128) solid 1px; */
+}

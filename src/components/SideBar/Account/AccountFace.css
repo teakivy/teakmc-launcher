@@ -1,0 +1,25 @@
+.avatar {
+	border-radius: 5px;
+	margin-bottom: 12.5px;
+	margin-top: 12.5px;
+	box-shadow: var(--dark-box-shadow);
+	-webkit-box-shadow: var(--dark-box-shadow);
+	transition-duration: 0.08s;
+}
+
+.avatar-active {
+	outline: 3px solid #ffffff;
+	outline-offset: 3px;
+}
+
+.avatar:hover {
+	outline: 1px solid #999999;
+	outline-offset: 2px;
+	cursor: pointer;
+	transform: translateY(-2px);
+}
+
+.avatar-active:hover {
+	outline: 3px solid #ffffff;
+	outline-offset: 3px;
+}

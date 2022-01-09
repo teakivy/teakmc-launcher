@@ -1,0 +1,67 @@
+{
+	"name": "electron-react-app",
+	"version": "1.0.0",
+	"description": "An Electron app With React JS",
+	"license": "MIT",
+	"dependencies": {
+		"@electron/remote": "^2.0.1",
+		"@testing-library/jest-dom": "^5.11.4",
+		"@testing-library/react": "^11.1.0",
+		"@testing-library/user-event": "^12.1.10",
+		"add-dashes-to-uuid": "^1.0.0",
+		"concurrently": "^6.2.0",
+		"cross-env": "^7.0.3",
+		"electron-is-dev": "^2.0.0",
+		"electron-json-storage": "^4.5.0",
+		"fs": "^0.0.1-security",
+		"keytar": "^7.7.0",
+		"minecraft-launcher-core": "^3.16.11",
+		"msmc": "^3.0.4",
+		"rc-slider": "^9.7.5",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-dropdown": "^1.9.2",
+		"react-icons": "^4.3.1",
+		"react-router": "^6.2.1",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "4.0.3",
+		"react-select": "^5.2.1",
+		"uuid": "^8.3.2",
+		"wait-on": "^5.3.0",
+		"web-vitals": "^1.0.1"
+	},
+	"main": "public/main.js",
+	"homepage": "./",
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"electron:serve": "concurrently -k \"cross-env BROWSER=none npm run start\" \"npm run electron:start\"",
+		"electron:build": "npm run build && electron-builder -c.extraMetadata.main=build/main.js --linux",
+		"electron:start": "wait-on tcp:3000 && electron .",
+		"dev": "concurrently -k \"cross-env BROWSER=none npm start\" \"npm:electron\"",
+		"electron": "wait-on http://localhost:3000 && electron ."
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"electron-builder": "^22.11.7"
+	}
+}
